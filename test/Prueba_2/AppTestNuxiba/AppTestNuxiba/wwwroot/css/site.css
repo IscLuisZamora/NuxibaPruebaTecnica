@@ -1,7 +1,5 @@
 * {
     margin: 0;
-    top: 0;
-    left:0;
     box-sizing: border-box;
 }
 
@@ -13,13 +11,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     & > div{
         padding: 2rem;
     }
 }
 
 .login_container__card {
+    margin-top: 5rem;
     background-color: rgb(255, 255, 255, 0.47);
     border-radius: 20px;
     & h1{

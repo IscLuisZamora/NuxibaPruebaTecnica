@@ -138,7 +138,7 @@ DELETE FROM usuarios WHERE userId NOT IN (6, 7, 9, 10);
 DELETE FROM empleados WHERE userId NOT IN (6, 7, 9, 10);
 
 -- Actualizar el dato Sueldo en un 10 porciento a los empleados que tienen fechas entre el año 2000 y 2001 **_(5 puntos)_**
-UPDATE empleados SET sueldo=sueldo*0.10+precio WHERE YEAR(fechaIngreso) > 1999 AND YEAR(fechaIngreso) < 2002;
+UPDATE empleados SET sueldo=sueldo*0.10+sueldo WHERE YEAR(fechaIngreso) > 1999 AND YEAR(fechaIngreso) < 2002;
 
 -- Realiza una consulta para traer el nombre de usuario y fecha de ingreso de los usuarios que gananen mas de 10000 y su apellido comience con T ordernado del mas reciente al mas antiguo **_(10 puntos)_**
 SELECT u.login, e.fechaIngreso FROM usuarios u INNER JOIN empleados e ON u.userId = e.userId WHERE e.sueldo > 10000 AND u.Paterno LIKE "T%" ORDER BY e.fechaIngreso DESC;

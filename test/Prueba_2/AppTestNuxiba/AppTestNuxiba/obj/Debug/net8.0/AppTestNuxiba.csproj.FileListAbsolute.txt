@@ -127,3 +127,4 @@ C:\Users\luism\Desktop\WORK\PruebaNuxiba\AppTestNuxiba\AppTestNuxiba\bin\Debug\n
 C:\Users\luism\Desktop\WORK\PruebaNuxiba\AppTestNuxiba\AppTestNuxiba\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\luism\Desktop\WORK\PruebaNuxiba\AppTestNuxiba\AppTestNuxiba\bin\Debug\net8.0\System.IO.Packaging.dll
 C:\Users\luism\Desktop\WORK\PruebaNuxiba\AppTestNuxiba\AppTestNuxiba\bin\Debug\net8.0\XLParser.dll
+C:\Users\luism\Desktop\WORK\PruebaNuxiba\AppTestNuxiba\AppTestNuxiba\obj\Debug\net8.0\AppTestNuxiba.sourcelink.json

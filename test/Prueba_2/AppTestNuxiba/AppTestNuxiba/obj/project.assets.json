@@ -7932,11 +7932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\testdevbackjr\\Prueba_2\\AppTestNuxiba\\AppTestNuxiba\\AppTestNuxiba.csproj",
+      "projectUniqueName": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\AppTestNuxiba\\AppTestNuxiba\\AppTestNuxiba.csproj",
       "projectName": "AppTestNuxiba",
-      "projectPath": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\testdevbackjr\\Prueba_2\\AppTestNuxiba\\AppTestNuxiba\\AppTestNuxiba.csproj",
+      "projectPath": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\AppTestNuxiba\\AppTestNuxiba\\AppTestNuxiba.csproj",
       "packagesPath": "C:\\Users\\luism\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\testdevbackjr\\Prueba_2\\AppTestNuxiba\\AppTestNuxiba\\obj\\",
+      "outputPath": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\AppTestNuxiba\\AppTestNuxiba\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luism\\AppData\\Roaming\\NuGet\\NuGet.Config",

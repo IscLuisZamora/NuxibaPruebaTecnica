@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "axfvtf8788xGoO5cf80iDzbWBqq2BllL4S6wLeB7eAhGS8hk8jhjMGqelTd9e4ZBw4eRdNvt6ZGJb/8rezwQhQ==",
+  "dgSpecHash": "tmXmsTkrDmVskB2lA80jyLtsF/5suILqkg8FPsIwBc58zxPzuJGm5Okwg26Ove8HbH2KI43xDm/k1iE5yA+SnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\testdevbackjr\\Prueba_2\\AppTestNuxiba\\AppTestNuxiba\\AppTestNuxiba.csproj",
+  "projectFilePath": "C:\\Users\\luism\\Desktop\\WORK\\PruebaNuxiba\\AppTestNuxiba\\AppTestNuxiba\\AppTestNuxiba.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luism\\.nuget\\packages\\aspnetcore.healthchecks.mysql\\8.0.1\\aspnetcore.healthchecks.mysql.8.0.1.nupkg.sha512",
     "C:\\Users\\luism\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
