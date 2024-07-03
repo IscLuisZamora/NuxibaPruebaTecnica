@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AppTestNuxiba.Models.Usuario;
+
+<div class="container-fluid login_container">
+    <div class="login_container__card">
+        <div class="row d-flex justify-content-center align-items-center" style="width: auto; height: auto;">
+            <div class="col col-12">
+                <h1>Editar Sueldo</h1>
+                <div class="row mt-3">
+
+                    <form asp-controller="Acceso" asp-action="EditUsuarioInsert" method="post">
+                        <input asp-for="UserId" type="hidden"/>
+                        <div class="col col-12">
+                            @* <div class="form-floating mb-3">
+                                <input type="text" class="form-control" asp-for="Nombre" placeholder="Ingresar Nombre">
+                                <label>Nombre</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" asp-for="Paterno" placeholder="Ingresar Apellido Paterno">
+                                <label>Paterno</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" asp-for="Materno" placeholder="Ingresar Apellido Materno">
+                                <label>Materno</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" asp-for="Login" placeholder="Login">
+                                <label>Login</label>
+                            </div> *@
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control" asp-for="Sueldo" step="any" placeholder="Ingresar Sueldo">
+                                <label>Sueldo</label>
+                            </div>
+                        </div>
+                        <div class="col col-12 d-flex justify-content-around">
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                            <a asp-controller="Acceso" asp-action="ContenidoTabla" class="btn btn-warning">Regresar</a>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

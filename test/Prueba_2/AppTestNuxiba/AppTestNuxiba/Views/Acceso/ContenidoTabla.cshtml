@@ -1,0 +1,65 @@
+﻿@model List<AppTestNuxiba.Models.Usuario>;
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container-fluid login_container">
+            <div class="login_container__card">
+                <div class="row d-flex justify-content-center align-items-center" style="width: auto; height: auto;">
+                    <div class="col col-12 d-flex justify-content-between">
+                        <h1>Tabla de contenido</h1>
+                        <div>
+                            <a class="btn btn--add" asp-controller="Acceso" asp-action="NuevoUsuario">
+                                Agregar Usuario
+                            </a>
+                            <a class="btn btn--add" asp-controller="Acceso" asp-action="ExportarCSV">
+                                Exportar
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-12">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>UserId</th>
+                                    <th>Login</th>
+                                    <th>Nombre</th>
+                                    <th>Paterno</th>
+                                    <th>Materno</th>
+                                    <th>Salario</th>
+                                    <th>FechaIngreso</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            @foreach (var item in Model) 
+                            { 
+                                <tr>
+                                    <td>@item.UserId</td> 
+                                    <td>@item.Login</td>
+                                    <td>@item.Nombre</td>
+                                    <td>@item.Paterno</td>
+                                    <td>@item.Materno</td>
+                                    <td>@item.Sueldo</td>
+                                    <td>@item.FechaIngreso.ToString("dd/MM/yyyy")</td>
+                                    <td>
+                                        <a class="btn btn-warning" asp-controller="Acceso" asp-action="EditarGetUsuario" asp-route-id="@item.UserId">
+                                            Editar
+                                        </a>
+                                    </td>
+                                </tr>    
+                            }
+                        </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
